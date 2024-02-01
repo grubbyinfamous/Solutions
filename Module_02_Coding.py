@@ -35,3 +35,11 @@ val = 123456.789
 print(f'{val:,.2f}')
 print(f'{0.2:.0%}')
 print('One''Two''Three')
+
+#One acre of land is equivalent to 43,560 sq. feet
+#Write a program that asks the user to enter the total square feet in a tract of land and calculates the numebr of acres in the tract
+feet_Per_Acre = 43560
+num_Feet = 0
+num_Feet = int(input("How much square feet is in your tract of land?"))
+num_Acre = (num_Feet / feet_Per_Acre) * 100
+print(f"you have {num_Acre}s in your tract")
